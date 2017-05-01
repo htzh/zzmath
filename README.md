@@ -1,1 +1,1 @@
-# zzmath
+# Zhang & Zhang Mathematics
