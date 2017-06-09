@@ -1,0 +1,17 @@
+languageCode = "en-us"
+title = "Z&Z Mathematics"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
+theme = "kube"
+baseURL = "http://htzh.github.io/zzmath/"
+relativeURLs = true
+description = "Collaborative Mathematics of Zhang & Zhang"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+[params]
+  description = "Collaborative Mathematics of Zhang & Zhang"
+  brand = "ZZMath"

@@ -1,0 +1,48 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Site.Params.description}}</p>
+  </div>
+    <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <a href="/articles/">
+          <img alt="Articles" height="48" src="/img/kube/icon-baseline.png" width="48">
+          </a>
+        </figure>
+        <h3><a href="/articles/">Articles</a></h3>
+        <p>More formal writings</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <a href="/notes/">
+          <img alt="Notes" height="48" src="/img/kube/icon-typo.png" width="48">
+          </a>
+        </figure>
+        <h3><a href="/notes/">Notes</a></h3>
+        <p>Quick notes</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <a href="/solutions/">
+          <img alt="Solutions" height="48" src="/img/kube/icon-minimalism.png" width="48">
+          </a>
+        </figure>
+        <h3><a href="/solutions/">Solutions</a></h3>
+        <p>Solutions to exercise and challenge problems</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="action-buttons">
+    <a class="button outline big" href="https://github.com/htzh/zzmath" onclick="_gaq.push(['_trackEvent', 'zzmath', 'github']);">View on Github</a>
+  </div>
+
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
