@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Z&amp;Z Mathematics</title>
+    <link>http://htzh.github.io/zzmath/tags/</link>
+    <description>Recent content in Tags on Z&amp;Z Mathematics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://htzh.github.io/zzmath/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cube Root</title>
+      <link>http://htzh.github.io/zzmath/tags/cube-root/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/tags/cube-root/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galois</title>
+      <link>http://htzh.github.io/zzmath/tags/galois/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/tags/galois/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

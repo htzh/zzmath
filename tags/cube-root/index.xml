@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cube Root on Z&amp;Z Mathematics</title>
+    <link>http://htzh.github.io/zzmath/tags/cube-root/</link>
+    <description>Recent content in Cube Root on Z&amp;Z Mathematics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://htzh.github.io/zzmath/tags/cube-root/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Could it really be a sum of cube roots?</title>
+      <link>http://htzh.github.io/zzmath/articles/arml_cube_roots/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/articles/arml_cube_roots/</guid>
+      <description>In a recent ARML practice session this interesting problem came up:
+$$\text{Express }\sqrt[3]{\sqrt[3]{2}-1}\text{ as the sum of three real cube roots of rational numbers.}$$ No one was able to solve it but they did have access to Wolfram Alpha and Wolfram Alpha gave a solution! What could have motivated such a problem in the first place? Here we will attempt to reason out the solution and see if we can reverse engineer a motivation.</description>
+    </item>
+    
+  </channel>
+</rss>

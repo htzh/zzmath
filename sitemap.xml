@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/articles/arml_cube_roots/</loc>
+    <lastmod>2017-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/articles/</loc>
+    <lastmod>2017-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/tags/cube-root/</loc>
+    <lastmod>2017-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/tags/galois/</loc>
+    <lastmod>2017-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/tags/</loc>
+    <lastmod>2017-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://htzh.github.io/zzmath/</loc>
+    <lastmod>2017-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
