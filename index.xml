@@ -6,10 +6,19 @@
     <description>Recent content on Z&amp;Z Mathematics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jun 2017 19:53:18 -0700</lastBuildDate>
     
 	<atom:link href="http://htzh.github.io/zzmath/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Poncelet closure theorem 1</title>
+      <link>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</link>
+      <pubDate>Sat, 10 Jun 2017 19:53:18 -0700</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</guid>
+      <description>PCT (Poncelet Closure Theorem) 1: Elementary considerations and Hurwitz&amp;rsquo;s algebraic correspondence Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two circles is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before.</description>
+    </item>
     
     <item>
       <title>Could it really be a sum of cube roots?</title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poncelet on Z&amp;Z Mathematics</title>
+    <link>http://htzh.github.io/zzmath/tags/poncelet/</link>
+    <description>Recent content in Poncelet on Z&amp;Z Mathematics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jun 2017 19:53:18 -0700</lastBuildDate>
+    
+	<atom:link href="http://htzh.github.io/zzmath/tags/poncelet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Poncelet closure theorem 1</title>
+      <link>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</link>
+      <pubDate>Sat, 10 Jun 2017 19:53:18 -0700</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</guid>
+      <description>PCT (Poncelet Closure Theorem) 1: Elementary considerations and Hurwitz&amp;rsquo;s algebraic correspondence Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two circles is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before.</description>
+    </item>
+    
+  </channel>
+</rss>

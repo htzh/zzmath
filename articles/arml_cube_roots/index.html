@@ -144,16 +144,19 @@ Since we are extending the rational field \(\mathbb{Q}\)
 
 <p>Let \(\alpha=\sqrt[3]{2}\)
 , \(r=\sqrt[3]{\alpha-1}\)
-, we have:
+, we have:</p>
+
 $$r^9+3r^6+3r^3-1=0$$
 
-So \([Q( r):Q]\le 9\)
+
+<p>So \([Q(r):Q]\le 9\)
 .
-Therefore \(r \notin Q(\alpha)\)
+If the polynomial is irreducible equality holds and we know for sure \(r \notin Q(\alpha)\)
 .
+However whether this is the case is not important.
 On the other hand \(\alpha = r^3+1\in Q( r)\)
 .
-Since we are told r is the sum of three cube roots, \(Q( r)\)
+Since we are told r is the sum of three cube roots, \(Q(r)\)
  can be generated as a ring by at most three cube roots.
 Question is, can we get away with fewer than three?
 If we add just one additional cube root \(\beta\notin Q(\alpha)\)
@@ -175,10 +178,12 @@ An immediate consequence is \(\alpha\notin Q(\beta)\)
 Every cube root of a rational number that happens to be in \(Q(\alpha, \beta)\)
  must be a rational multiple of one \(w_{ij}\)
 , instead of <a href="#hugo1">a linear combination of multiple ones</a>.
-After dividing r by one of the nonzero cube roots, we can write our problem as:
+After dividing r by one of the nonzero cube roots, we can write our problem as:</p>
+
 $$(1+a\alpha^{i_1}\beta^{j_1}+b\alpha^{i_2}\beta^{j_2})^3 = q(\alpha-1),\quad a,b,q\in Q$$
 
-First we note that \(i_1,i_2\)
+
+<p>First we note that \(i_1,i_2\)
  can&rsquo;t both be zero, for otherwise we have \(\alpha\in Q(\beta)\)
 , contrary to our assumption.</p>
 
@@ -186,40 +191,53 @@ First we note that \(i_1,i_2\)
 .
 If this weren&rsquo;t so we could just expand the cube power and get a contradiction by examining the term with \(\alpha^2\)
 , whose coefficient must be zero.
-So w.l.o.g. we can assume our equation has the form:
+So w.l.o.g. we can assume our equation has the form:</p>
+
 $$(1+a\alpha\beta^{j_1}+b\alpha^2\beta^{j_2})^3 = q(\alpha-1),\quad a,b,q\in Q$$
 
-Expand the power and group the terms that has \(\alpha^2\)
-, we must have:
+
+<p>Expand the power and group the terms that has \(\alpha^2\)
+, we must have:</p>
+
 $$a^2\beta^{2j_1}+b\beta^{j_2}+2ab^2\beta^{j_1+2j_2}=0$$
 
-where we used \(\alpha^3=2\)
+
+<p>where we used \(\alpha^3=2\)
 .
 We must then have \(2j_1\equiv j_2\equiv j_1+2j_2\)
  mod 3.
 Possible solutions are (0, 0), (1, 2) and (2, 1).
 The last two cases can be ruled out as they imply \(\alpha\in Q(\gamma), \gamma=\alpha^{\pm1}\beta\)
 .
-So we must have:
+So we must have:</p>
+
 $$a^2+b+2ab^2=0$$
 
-Now we have to take a guess: \(a=-1,b=1\)
+
+<p>Now we have to take a guess: \(a=-1,b=1\)
  is an obvious solution.
-We then need to find a rational q that satisfies:
+We then need to find a rational q that satisfies:</p>
+
 $$(1-\alpha+\alpha^2)^3=q(\alpha-1)$$
 
-Multiply both sides by \((\alpha+1)^3\)
+
+<p>Multiply both sides by \((\alpha+1)^3\)
  and use \(\alpha^3+1=3\)
-:
+:</p>
+
 $$q(\alpha-1)(\alpha+1)^3=27$$
 
-We have been led to discover quite a coincidence:
+
+<p>We have been led to discover quite a coincidence:</p>
+
 $$(\alpha-1)(\alpha+1)^3=(\alpha^2-1)((\alpha^2+1)+2\alpha)=2\alpha-1+4-2\alpha=3$$
 
-The problem writer must have known this to come up with such a clever question!
-To finish we have q=9 and:
+
+<p>The problem writer must have known this to come up with such a clever question!
+To finish we have q=9 and:</p>
+
 $$\sqrt[3]{\sqrt[3]{2}-1} = \sqrt[3]{\frac{1}{9}} - \sqrt[3]{\frac{2}{9}} + \sqrt[3]{\frac{4}{9}}$$
-</p>
+
 
 <h3 id="hugo1">Linear independence of cube roots</h3>
 
@@ -254,9 +272,10 @@ The base case with two or less elements is implied by our assumption of pairwise
 Let&rsquo;s assume that our claim is valid for any S of size \(\leq n\)
 , and consider the case for S of size n+1.</p>
 
-<p>Suppose there is a linear relationship, w.l.o.g. of the form:
+<p>Suppose there is a linear relationship, w.l.o.g. of the form:</p>
+
 $$s_{n+1}=\sum_{i=1}^n c_i s_i \quad c_i\neq 0\in Q(\omega)$$
-</p>
+
 
 <p>The extension \(Q(\omega, S)/Q(\omega)\)
  is Galois.
@@ -267,10 +286,12 @@ Since \(\frac{s_1}{s_2} \notin Q(\omega)\)
 .
 Let \(\sigma(s_i)=\omega^{t_i}s_i\)
 .
-We have:
+We have:</p>
+
 $$ 0 = \sigma(s_{n+1})-\omega^{t_{n+1}}s_{n+1} = \sum_{i=1}^n (\omega^{t_i}-\omega^{t_{n+1}})c_i s_i$$
 
-Since \(\omega^{t_1}\neq \omega^{t_2}\)
+
+<p>Since \(\omega^{t_1}\neq \omega^{t_2}\)
 , \(\omega^{t_1}-\omega^{t_{n+1}}\)
  and \(\omega^{t_2}-\omega^{t_{n+1}}\)
  can not both be zero.
