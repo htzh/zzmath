@@ -38,7 +38,7 @@ Show that its tangent line through $(x_1, y_1)$ satisfies $\Phi_x(x_1, y_1)(x-x1
 
 Now find the equation for a line that goes through $P(s)=(f_1(s), f_2(s))$ on the first ellipse, and tangent to the second ellipse through $Q(t)=(g_1(t), g_2(t))$.
 
-Note, as we will soon see, we are only interesting in the degrees of the polynominal relations.
+Note, as we will soon see, we are only interested in the degrees of the polynominal relations.
 The actual coefficients are not important for our purpose.
 
 ##### Algebraic correspondence
@@ -68,6 +68,18 @@ Argue that it must be identically zero.
 
 Does this prove PCT?
 
+##### Projective transforms
+
+Why is PCT a projective property?
+
+Given two ellipses with one inside another, show that there is a projective transform so that the transformed ellipses are:
+
+$$ E_0: x^2+y^2-1=0, \qquad E_1: \frac{x^2}{a^2}+\frac{y^2}{b^2}-1=0\quad(a, b >1)$$
+
+Find an explicit expression for $H(s_0, s_1)$.
+
+What happens if we work with $CP^2$ instead of $RP^2$?
+
 ##### Synthetic proof for triangles
 
 While Euler/Chapple hints at (is compatible with) PCT, a direct proof is much harder.
@@ -83,3 +95,10 @@ The following beautiful proof is discovered by a Chinese high school student 韩
 1. [XEDYGF circumscribes a conic](hint://Branchon).
 
 Why must the conic in the last step be the same conic of our problem?
+
+##### References
+
+Ueno et al, A mathematical gift, 2, interplay between topology, functions, geometry, and algebra
+
+Bryant, [Poncelet’s Theorem](http://arimoto.lolipop.jp/PonceletforBMC.pdf)
+
