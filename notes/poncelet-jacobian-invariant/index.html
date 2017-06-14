@@ -9,7 +9,7 @@
   <title> Poncelet closure theorem 2 </title>
 
   
-  <meta name="description" content="Jacobian invariant for circles."> 
+  <meta name="description" content="Jacobian invariant and analytic proof."> 
   
   
   
@@ -22,7 +22,7 @@
 
 
   <meta property="og:title" content="Poncelet closure theorem 2" />
-<meta property="og:description" content="Jacobian invariant for circles." />
+<meta property="og:description" content="Jacobian invariant and analytic proof." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://htzh.github.io/zzmath/notes/poncelet-jacobian-invariant/" />
 
@@ -160,6 +160,75 @@ $$J_\pi=n\omega$$
 
 <p>The above condition is independent of the choice of \(P_0\)
 , so we have PCT.</p>
+
+<p>Can this be generalized to ellipses?</p>
+
+<h5 id="kepler-and-generalized-angle">Kepler and generalized angle</h5>
+
+<p>Why is PCT particularly simple for concentric circles?</p>
+
+<p>Kepler&rsquo;s second law says that a line segment joining the planet (a point on the ellipse) to the Sun (focus of the ellipse) sweeps out equal areas in equal times.
+In polar coordinates \((r, \theta)\)
+, show that an ellipse with a focus at the origin takes the form</p>
+
+$$ r =\frac{a(1-\epsilon^2)}{(1-\epsilon\cos\theta)}$$
+
+
+<p>where \(\epsilon\)
+ is the eccentricity of the ellipse (\(a^2\epsilon^2=a^2-b^2\)
+).
+The area swept out between two values of \(\theta\)
+ is</p>
+
+$$A = \int_{\theta_0}^{\theta_1}\frac{1}{2}r(\theta)^2\mathrm{d}\theta $$
+
+
+<p>Find the expression in the rectangular coordinates and explain the geometric meaning.</p>
+
+<p>Given two ellipses with one inside another:</p>
+
+<p>$$ E_0: x^2+y^2-1=0, \qquad E_1: \frac{x^2}{a^2}+\frac{y^2}{b^2}-1=0\quad(a, b >1)$$
+
+Let \(P_0=(z, w), P_1(\bar{z},\bar{w})\)
+ be the points both on \(E_1\)
+ and on the tangent line to \(E_0\)
+ at (x,y).
+\(P_0P_1\)
+ is parallel to the vector (y, -x).
+Show \(xz+yw-1=0\)
+.</p>
+
+<p>Consider the set S of (x, y, z, w) as a curve S embedded in \(R^4\)
+.
+Show that differentiation gives us:</p>
+
+$$ \left(\begin{matrix} x & y & 0 & 0 \\ 0 & 0 & z/a^2 & w/b^2 \\ z & w & x & y \end{matrix}\right) \left(\begin{matrix} \mathrm{d}x \\ \mathrm{d}y \\ \mathrm{d}z \\ \mathrm{d}w \end{matrix} \right) = \left(\begin{matrix} 0 \\ 0 \\ 0 \end{matrix}\right) $$
+
+
+<p>Show the following relations hold:</p>
+
+$$ \frac{\mathrm{d}x}{y(zy/a^2-wx/b^2)} = \frac{-\mathrm{d}y}{x(zy/a^2-wx/b^2)} = \frac{-b^2\mathrm{d}z}{w(xw-yz)} = \frac{a^2\mathrm{d}w}{z(xw-yz)} $$
+
+
+<p>At every point of S, at least one of these differential expressions is well defined and non-zero.
+Together they define a well-defined 1-form \(\mathrm{d}\theta\)
+ that is nowhere vanishing.</p>
+
+<p>Let \(\tau(x,y,z,w)=(x,y,\bar{z},\bar{w})\)
+, \(\sigma(x,y,z,w)=(\bar{x},\bar{y},z,w)\)
+ be maps corresponding to the tangent and intersection procedure.
+Show \(\mathrm{d}\theta\)
+ is invariant under \(\tau\circ\sigma\)
+ and \(\sigma\circ\tau\)
+.</p>
+
+<p>Show this proves PCT.</p>
+
+<h5 id="references">References</h5>
+
+<p>Ueno et al, A mathematical gift, 2, interplay between topology, functions, geometry, and algebra</p>
+
+<p>Bryant, <a href="http://arimoto.lolipop.jp/PonceletforBMC.pdf">Poncelet’s Theorem</a></p>
 
 
     
