@@ -13,7 +13,7 @@ tags = ["Poncelet"]
 1. Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two circles is d. Prove that: $R^2 - d^2 = 2Rr$.
 1. Give the above result a PCT reading.
 
-##### Tetragons
+##### Tetragons (Fuss)
 
 $\star$ Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before. Prove:
 
@@ -96,9 +96,25 @@ The following beautiful proof is discovered by a Chinese high school student 韩
 
 Why must the conic in the last step be the same conic of our problem?
 
+##### Bicentric quadrilaterals
+
+We prove Fuss in the case of quadrilaterals following Salazar, [as illustrated by Bogomolny](http://www.cut-the-knot.org/Curriculum/Geometry/Fuss.shtml#S)
+
+![quadrilaterals](http://www.cut-the-knot.org/Curriculum/Geometry/Fuss.gif)
+
+Show $1/r^2 = 1/AI^2 + 1/CI^2$.
+
+Show EOF colinear (a diameter!).
+
+IO is median for $\triangle IEF$. Show $IO^2=\frac{1}{2}(IE^2+IF^2)-\frac{1}{4}EF^2$.
+
+Prove Fuss for quadrilaterals.
+
 ##### References
 
 Ueno et al, A mathematical gift, 2, interplay between topology, functions, geometry, and algebra
 
 Bryant, [Poncelet’s Theorem](http://arimoto.lolipop.jp/PonceletforBMC.pdf)
+
+Royster, [Quadrilaterals](http://www.msc.uky.edu/droyster/courses/fall11/MA341/Classnotes/Lecture%2023%20Handouts.pdf)
 
