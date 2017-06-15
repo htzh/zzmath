@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://htzh.github.io/zzmath/notes/poncelet-modern/</loc>
+    <lastmod>2017-06-14T09:57:53-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://htzh.github.io/zzmath/notes/poncelet-jacobian-invariant/</loc>
     <lastmod>2017-06-12T16:06:09-07:00</lastmod>
   </url>
@@ -63,7 +68,7 @@
   
   <url>
     <loc>http://htzh.github.io/zzmath/</loc>
-    <lastmod>2017-06-12T16:06:09-07:00</lastmod>
+    <lastmod>2017-06-14T09:57:53-07:00</lastmod>
     <priority>0</priority>
   </url>
   
