@@ -17,7 +17,7 @@ Show elliptic curves have genus 1.
 
 Show genus 1 curves are elliptic curves.
 
-##### Tangents
+##### Algebraic object
 
 Let $C,D$ be two smooth conics in $\mathbb{CP}^2$, with $\#(C\cap D)=4$.
 Let $D^*$ be the dual curve, i.e. lines that are tangent to $D$.
@@ -49,6 +49,10 @@ Let $c, d\in E$ be some fixed points, respectively.
 Show this implies $\gamma x=2c-x$, $\delta x=2d-x$; thus $\alpha x = x+2d-2c$.
 
 Show $\alpha^n(x)=x \Rightarrow \alpha^n=id$.
+
+##### Discussion
+
+What are the differences in pre-conditions for the various proofs to hold?
 
 ##### References
 

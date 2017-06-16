@@ -10,7 +10,9 @@ tags = ["Poncelet"]
 
 ##### Euler/Chapple
 
-1. Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two circles is d. Prove that: $R^2 - d^2 = 2Rr$.
+1. Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r.
+The distance between the two centers is d.
+Prove that: $R^2 - d^2 = 2Rr$.
 1. Give the above result a PCT reading.
 
 ##### Tetragons (Fuss)
@@ -80,6 +82,13 @@ Find an explicit expression for $H(s_0, s_1)$.
 
 What happens if we work with $CP^2$ instead of $RP^2$?
 
+Let $x=[x_0,x_1,x_2]$ be homogeneous coordinates.
+A (complex projective) smooth plane conic is given by a quadratic equation $\sum_{i,j}{q_{ij} x_i x_j}=0$, with the coefficient matrix Q non-singular.
+Given two plane conics C, C', show we may change coordinates so that:
+
+$$C=\{\sum_{i=0}^2{x_i^2}=0\},\qquad C'=\{\sum_{i=0}^2{\beta_i x_i^2}=0\}$$
+
+
 ##### Synthetic proof for triangles
 
 While Euler/Chapple hints at (is compatible with) PCT, a direct proof is much harder.
@@ -95,6 +104,8 @@ The following beautiful proof is discovered by a Chinese high school student 韩
 1. [XEDYGF circumscribes a conic](hint://Branchon).
 
 Why must the conic in the last step be the same conic of our problem?
+
+Is Euler/Chapple a sufficent condition for PCT?
 
 ##### Bicentric quadrilaterals
 
@@ -118,3 +129,4 @@ Bryant, [Poncelet’s Theorem](http://arimoto.lolipop.jp/PonceletforBMC.pdf)
 
 Royster, [Quadrilaterals](http://www.msc.uky.edu/droyster/courses/fall11/MA341/Classnotes/Lecture%2023%20Handouts.pdf)
 
+WolframMathWorld, [Poncelet's Porism](http://mathworld.wolfram.com/PonceletsPorism.html)

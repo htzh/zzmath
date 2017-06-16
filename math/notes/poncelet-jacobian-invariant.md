@@ -98,3 +98,5 @@ Ueno et al, A mathematical gift, 2, interplay between topology, functions, geome
 
 Bryant, [Poncelet’s Theorem](http://arimoto.lolipop.jp/PonceletforBMC.pdf)
 
+Bos et al, [Poncelet’s closure theorem, its history, its modern formulation, a comparison of its modern proof with those by Poncelet and Jacobi, and some mathematical remarks inspired by these early proofs](https://www.researchgate.net/publication/267658483_Poncelet's_closure_theorem)
+
