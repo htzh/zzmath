@@ -17,7 +17,7 @@
       <pubDate>Sat, 10 Jun 2017 19:53:18 -0700</pubDate>
       
       <guid>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</guid>
-      <description>Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two circles is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons (Fuss) \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before. Prove:</description>
+      <description>Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two centers is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons (Fuss) \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before. Prove:</description>
     </item>
     
   </channel>

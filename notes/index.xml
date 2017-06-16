@@ -17,7 +17,23 @@
       <pubDate>Sat, 10 Jun 2017 19:53:18 -0700</pubDate>
       
       <guid>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</guid>
-      <description>Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two circles is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons (Fuss) \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before. Prove:</description>
+      <description>Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two centers is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons (Fuss) \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before. Prove:</description>
+    </item>
+    
+    <item>
+      <title>Surfaces overview</title>
+      <link>http://htzh.github.io/zzmath/notes/surfaces-classification/</link>
+      <pubDate>Thu, 15 Jun 2017 11:50:14 -0700</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/notes/surfaces-classification/</guid>
+      <description>Topological classification of surfaces Dimension/connectedness.
+Additional structure: smoothness and manifolds.
+It can be shown that every surface is a smooth 2-manifold and that every smooth 2-manifold can be embedded in \(\mathbb{R}^4\) .
+Orientability.
+All orientable surfaces can be embedded in \(\mathbb{R}^3\) . There are nonorientable surfaces, such as \(\mathbb{RP}^2\) (or the Klein bottle), that can’t be embedded in \(\mathbb{R}^3\) .
+Genus.
+Triangulation \(\rightarrow\) cell complexes \(\rightarrow\) normal form.
+Describe the fundamental group of a connected compact orientable surface.</description>
     </item>
     
     <item>
@@ -29,7 +45,7 @@
       <description>Curves and genus We are working with complex projective curves.
 Show elliptic curves have genus 1.
 Show genus 1 curves are elliptic curves.
-Tangents Let \(C,D\) be two smooth conics in \(\mathbb{CP}^2\) , with \(\#(C\cap D)=4\) . Let \(D^*\) be the dual curve, i.e. lines that are tangent to \(D\) . Show \(D^*\) is also a smooth conic.
+Algebraic object Let \(C,D\) be two smooth conics in \(\mathbb{CP}^2\) , with \(\#(C\cap D)=4\) . Let \(D^*\) be the dual curve, i.e. lines that are tangent to \(D\) . Show \(D^*\) is also a smooth conic.
 Define \(E(C, D)\stackrel{\triangle}{=}\{(P, L)\mid P\in C, L\in D^*, P\in L\}\subset C \times D^*\) .</description>
     </item>
     
