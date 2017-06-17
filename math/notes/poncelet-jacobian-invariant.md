@@ -36,9 +36,9 @@ We will refer to the constant as $\omega$.
 
 ##### Analytic proof of PCT for circles
 
-If we have a sequence of points $P_0\rightarrow P_1\rightarrow\mathellipsis\rightarrow P_k$ on the circle C, with each line segment tangent to the circle C', show that
+If we have a sequence of points $P_0\rightarrow P_1\rightarrow\mathellipsis\rightarrow P_m$ on the circle C, with each line segment tangent to the circle C', show that
 
-$$\int_{\phi_0}^{\phi_k(\phi_0)}\frac{\mathrm{d}\phi}{\sqrt{1-k^2\sin^2\phi}}=k\omega$$
+$$\int_{\phi_0}^{\phi_m(\phi_0)}\frac{\mathrm{d}\phi}{\sqrt{1-k^2\sin^2\phi}}=m\omega$$
 
 Show the following is independent of $\phi_0$:
 
@@ -92,6 +92,20 @@ Show $\mathrm{d}\theta$ is invariant under $\tau\circ\sigma$ and $\sigma\circ\ta
 
 Show this proves PCT.
 
+##### Euler addition
+
+Consider the elliptic integral defined by:
+
+$$u=F(\phi)=\int_0^\phi\frac{\mathrm{d}\phi'}{\sqrt{1-k^2\sin^2\phi'}}$$
+
+Define the inverse function am by $\mathrm{am}u=\phi$.
+
+Let $\chi=\mathrm{am}v$.
+We want to find geometrically $\psi=\mathrm{am}(u+v)$ with fixed modulus $k^2$.
+See page 318 of Bos et al.
+
+Show it agrees with [Euler's addition theorem](http://mathworld.wolfram.com/EulersAdditionTheorem.html).
+
 ##### References
 
 Ueno et al, A mathematical gift, 2, interplay between topology, functions, geometry, and algebra
@@ -99,4 +113,5 @@ Ueno et al, A mathematical gift, 2, interplay between topology, functions, geome
 Bryant, [Poncelet’s Theorem](http://arimoto.lolipop.jp/PonceletforBMC.pdf)
 
 Bos et al, [Poncelet’s closure theorem, its history, its modern formulation, a comparison of its modern proof with those by Poncelet and Jacobi, and some mathematical remarks inspired by these early proofs](https://www.researchgate.net/publication/267658483_Poncelet's_closure_theorem)
+
 

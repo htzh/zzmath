@@ -59,6 +59,7 @@ Bonus problem: [MIT 18.116 problem set 1](http://math.mit.edu/~casals/18116PSet1
 Curves are easy to write down!
 However there are also additional complexities, such as singularities.
 
+**GAGA**:
 Compact Riemann surfaces are algebraic curves.
 Every albegraic curve admits a normalization, that is a holomorphic map from a compact Riemann surface.
 The map is biholomorphic except at the singluar points and their pre-images, which are finite.
@@ -75,7 +76,7 @@ What is the advantage of working with the singular curve above?
 Note its singularities at infinity for n>1 is non-ordinary.
 
 Varierties are birationally equivalent if there is a birational map between them.
-Two varieties are birationnaly equivalent if and only if their functional fields are isomorphic.
+Two varieties are birationally equivalent if and only if their functional fields are isomorphic.
 
 ##### References
 
