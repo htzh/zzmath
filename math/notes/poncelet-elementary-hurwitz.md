@@ -31,14 +31,16 @@ We can choose a coordinate system so that our first ellipse is represented by $(
 1. Find a rational expression in terms of $s=\tan{\frac{\theta}{2}}$.
 1. Show that the equation for a line tangent to the ellipse at $(x_1, y_1)$ is $\frac{xx_1}{a^2}+\frac{yy_1}{b^2}-1=0$.
 
+In general an ellipse satisfies an equation of the form $\Phi(x,y) = Ax^2+Bxy+Cy^2+Dx+Ey+F=0$.
+Show that its tangent line through $(x_1, y_1)$ satisfies $\Phi_x(x_1, y_1)(x-x_1)+\Phi_y(x_1, y_1)(y-y_1)=0$.
+
 A second ellipse can be similarly parameterized in its own coordinates by $(a'\cos{\theta'}, b'\sin{\theta'})$.
 
 1. Write the rational expression in terms of $t=\tan{\frac{\theta'}{2}}$.
-1. Show that when translated into the first ellipse's coordinate system, it can be represented by $(\frac{\hat{g}_1(t)}{1+t^2}, \frac{\hat{g}_2(t)}{1+t^2})$, where both $\hat{g}_1(t)$ and $\hat{g}_2(t)$ are quadratic polynomials in t.
-1. The translated ellipse satisfies a equation of the form $\Phi(x,y) = Ax^2+Bxy+Cy^2+Dx+Ey+F=0$.
-Show that its tangent line through $(x_1, y_1)$ satisfies $\Phi_x(x_1, y_1)(x-x1)+\Phi_y(x_1, y_1)(y-y_1)=0$.
+1. Show that when translated into this system, the first ellipse can be represented by $(\frac{\hat{f}_1(s)}{1+s^2}, \frac{\hat{f}_2(s)}{1+s^2})$, where both $\hat{f}_1(s)$ and $\hat{f}_2(s)$ are quadratic polynomials in s.
 
 Now find the equation for a line that goes through $P(s)=(f_1(s), f_2(s))$ on the first ellipse, and tangent to the second ellipse through $Q(t)=(g_1(t), g_2(t))$.
+It may be more convenient to work in the second ellipse's coordinate systems as tangent line equation is simpler when the ellipse is centered.
 
 Note, as we will soon see, we are only interested in the degrees of the polynominal relations.
 The actual coefficients are not important for our purpose.
@@ -54,7 +56,8 @@ Show that by eliminating t, one can relate the two solutions through $H(s_0, s_1
 Show H is second degree in $s_0$ and $s_1$.
 What is the geometric interpretation?
 
-Hint: For now the degree argument may have to be geometric in nature.
+Hint: The degree argument may be geometric in nature.
+For an algebraic argument use resultant, try to factor out $s_0-s_1$ and then use a max degree argument.
 
 If we continue with the process we can find $P(s_2)$ through $H(s_1, s_2)=0$.
 By eliminating $s_1$, we arrive at $H^{(2)}(s_0, s_2) = 0$.
@@ -78,7 +81,28 @@ Given two ellipses with one inside another, show that there is a projective tran
 
 $$ E_0: x^2+y^2-1=0, \qquad E_1: \frac{x^2}{a^2}+\frac{y^2}{b^2}-1=0\quad(a, b >1)$$
 
-Find an explicit expression for $H(s_0, s_1)$.
+In this form it is easy to see that:
+
+$$\frac{a(1-s^2)(1-t^2)}{(1+s^2)(1+t^2)}+\frac{4bst}{(1+s^2)(1+t^2)}=1$$
+
+And
+
+$$K(s, t)=A(s)t^2+B(s)t+C(s)$$
+
+Where A(s), B(s), C(s) are at most second degree in s.
+
+To find an expression for $H(s_0, s_1)$ we compute the resultant of $K(s_0, t)$ and $K(s_1, t)$ to eliminate t.
+
+$$R(s_0, s_1)=\mathrm{det}\left|\begin{matrix} A(s_0) & B(s_0) & C(s_0) & 0 \\ 0 & A(s_0) & B(s_0) & C(s_0) \\ A(s_1) & B(s_1) & C(s_1) & 0 \\ 0 & A(s_1) & B(s_1) & C(s_1) \end{matrix}\right|$$ 
+
+Show $R(s_0, s_1)$ is at most 4th degree in $s_0$ and in $s_1$.
+By subtracting the third row from the first and the fourth row from the second, show that
+
+$$R(s_0, s_1) = (s_0-s_1)^2H(s_0, s_1)$$
+
+Show this means $H(s_0, s_1)$ is at most second degree in $s_0$ and in $s_1$.
+
+Show this procedure is general, only dependent on the fact that the polynomials A,B,C are at most quadratic.
 
 What happens if we work with $CP^2$ instead of $RP^2$?
 
