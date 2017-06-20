@@ -56,17 +56,24 @@ Can this be generalized to ellipses?
 
 Why is PCT particularly simple for concentric circles?
 
+For a circle parameterized by $(\cos\theta, \sin\theta)$, show
+
+$$\frac{\mathrm{d}y}{x}=-\frac{\mathrm{d}x}{y}$$
+
+While neither of these expressions is defined everywhere, show each ratio (where defined) is $\mathrm{d}\theta$.
+
 Kepler's second law says that a line segment joining the planet (a point on the ellipse) to the Sun (focus of the ellipse) sweeps out equal areas in equal times.
-In polar coordinates $(r, \theta)$, show that an ellipse with a focus at the origin takes the form
+In polar coordinates $(r, \theta)$, the area swept out between two values of $\theta$ is
+
+$$A = \int_{\theta_0}^{\theta_1}\frac{1}{2}r(\theta)^2\mathrm{d}\theta $$
+
+Take derivateive against time and show how it is equivalent to the conservation of angular momentum.
+
+Show that an ellipse with a focus at the origin takes the form
 
 $$ r =\frac{a(1-\epsilon^2)}{(1-\epsilon\cos\theta)}$$
 
 where $\epsilon$ is the eccentricity of the ellipse ($a^2\epsilon^2=a^2-b^2$).
-The area swept out between two values of $\theta$ is
-
-$$A = \int_{\theta_0}^{\theta_1}\frac{1}{2}r(\theta)^2\mathrm{d}\theta $$
-
-Find the expression in the rectangular coordinates and explain the geometric meaning.
 
 Given two ellipses with one inside another:
 
@@ -74,8 +81,17 @@ $$ E_0: x^2+y^2-1=0, \qquad E_1: \frac{x^2}{a^2}+\frac{y^2}{b^2}-1=0\quad(a, b >
 Let $P_0=(z, w), P_1(\bar{z},\bar{w})$ be the points both on $E_1$ and on the tangent line to $E_0$ at (x,y).
 $P_0P_1$ is parallel to the vector (y, -x).
 Show $xz+yw-1=0$.
+Show $(x-iy)(w+iz)=1+i(xw-yz)$.
 
 Consider the set S of (x, y, z, w) as a curve S embedded in $R^4$.
+Show S is the disjoint union of two components (each a circle when projected on to $E_0$):
+
+$$S_+=\{(x,y,z,w)\in S\mid xw-yz>0\}$$
+
+$$S_-=\{(x,y,z,w)\in S\mid xw-yz<0\}$$
+
+Conclude the projection of S onto either $E_0$ or $E_1$ is a (trivial) double cover.
+
 Show that differentiation gives us:
 
 $$ \left(\begin{matrix} x & y & 0 & 0 \\ 0 & 0 & z/a^2 & w/b^2 \\ z & w & x & y \end{matrix}\right) \left(\begin{matrix} \mathrm{d}x \\ \mathrm{d}y \\ \mathrm{d}z \\ \mathrm{d}w \end{matrix} \right) = \left(\begin{matrix} 0 \\ 0 \\ 0 \end{matrix}\right) $$
@@ -87,7 +103,7 @@ $$ \frac{\mathrm{d}x}{y(zy/a^2-wx/b^2)} = \frac{-\mathrm{d}y}{x(zy/a^2-wx/b^2)} 
 At every point of S, at least one of these differential expressions is well defined and non-zero.
 Together they define a well-defined 1-form $\mathrm{d}\theta$ that is nowhere vanishing.
 
-Let $\tau(x,y,z,w)=(x,y,\bar{z},\bar{w})$, $\sigma(x,y,z,w)=(\bar{x},\bar{y},z,w)$ be maps corresponding to the tangent and intersection procedure.
+Let $\tau(x,y,z,w)=(x,y,\bar{z},\bar{w})$, $\sigma(x,y,z,w)=(\bar{x},\bar{y},z,w)$ be maps corresponding to the tangent and chord procedure.
 Show $\mathrm{d}\theta$ is invariant under $\tau\circ\sigma$ and $\sigma\circ\tau$.
 
 Show this proves PCT.

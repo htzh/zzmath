@@ -32,25 +32,34 @@ Compute its (first) homology group.
 
 ##### Riemann surfaces
 
+Local homeomorphism to $\mathbb{C}$:
 Is a closed disk a Riemann surface?
 Is it a manifold?
+
+Holomorphic transition functions: compare with manifolds.
 
 Show the Riemann sphere is a Riemann surface.
 
 Prove Riemann surfaces are orientable.
 
-Biholomorphic mapping.
-Two Riemann surfaces are isomorphic if there is a biholomorphic map between them.
+Covering maps: Fulton 11.1-11.3
 
-Forster exercises 1.2-1.5.
+Connectedness: show that if X is connected, all fibers of the covering map $Y\rightarrow X$ has the same cardinality.
 
 Nonconstant holomorphic maps between Riemann surfaces are covering maps.
 
 Show covers of a Riemann surface can be endowed with a complex structure and so are also Riemann surfaces. (Forster 4.6)
 
-Universal covers and uniformization theory.
+Forster exercises 4.1-4.5.
 
-Forster exercises 4.1-4.5 and 5.1-5.7.
+Fulton 13a.
+
+Universal covers and uniformization.
+
+Biholomorphic mapping.
+Two Riemann surfaces are isomorphic if there is a biholomorphic map between them.
+
+Forster exercises 1.2-1.5.
 
 Bonus problem: [MIT 18.116 problem set 1](http://math.mit.edu/~casals/18116PSet1.pdf) problem 5.
 
