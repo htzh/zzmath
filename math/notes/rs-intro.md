@@ -17,7 +17,7 @@ Forster 1.11 (Identity Theorem) and section 2.
 
 Presheaf, sheaf, stalk.
 
-Section, germ.
+Section, germ, divisor.
 
 ##### References
 

@@ -73,13 +73,14 @@ Compact Riemann surfaces are algebraic curves.
 Every albegraic curve admits a normalization, that is a holomorphic map from a compact Riemann surface.
 The map is biholomorphic except at the singluar points and their pre-images, which are finite.
 
-Show that the curve defined by $y^2=(x^2-1^2)(x^2-2^2)\mathellipsis(x^2-n^2)$ has a 2-sheeted branched cover.
+Show that the curve defined by $y^2=(x^2-1^2)(x^2-2^2)\mathellipsis(x^2-n^2)$ is a 2-sheeted branched cover (not considering the point at infinity).
 Show that it is equivalent to n-1 connected tori and thus has genus n-1.
 Show that it has no singularities in the (x, y) plane.
 Does this conflict with the degree-genus formula?
 
 This Riemann surface should be isomorphic to a smooth algebraic curve.
 Show the curve could not be a plane curve.
+Find a nonsingular model by giving a second set of affine chart and associated transition map.
 
 What is the advantage of working with the singular curve above?
 Note its singularities at infinity for n>1 is non-ordinary.
