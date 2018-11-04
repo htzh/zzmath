@@ -6,19 +6,10 @@
     <description>Recent content in Notes on Z&amp;Z Mathematics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jun 2017 19:53:18 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 03 Nov 2018 21:42:36 -0700</lastBuildDate>
     
 	<atom:link href="http://htzh.github.io/zzmath/notes/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Poncelet closure theorem 1</title>
-      <link>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</link>
-      <pubDate>Sat, 10 Jun 2017 19:53:18 -0700</pubDate>
-      
-      <guid>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</guid>
-      <description>Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two centers is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons (Fuss) \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before. Prove:</description>
-    </item>
     
     <item>
       <title>Notes on Lean prover</title>
@@ -66,6 +57,15 @@ Define \(E(C, D)\stackrel{\triangle}{=}\{(P, L)\mid P\in C, L\in D^*, P\in L\}\s
       <guid>http://htzh.github.io/zzmath/notes/poncelet-jacobian-invariant/</guid>
       <description>Jacobian invariant for circles Consider two circles C,C&amp;rsquo; with radii R, r. Let the distance between their centers be d. Define k as following:
 $$ k^2 = \frac{4dR}{\sqrt{(R+d)^2-r^2}} $$ Choose the polar coordinates with origin at the center of the circle C. Let the polar angle of a point \(P(\phi)\) on C be \(2\phi\) . Let \(P_0=P(\phi_0)\) and \(P_1=P(\phi_1)\) be two points on C such that the line \(P_0 P_1\) is tangent to the circle C&amp;rsquo; at the point Q.</description>
+    </item>
+    
+    <item>
+      <title>Poncelet closure theorem 1</title>
+      <link>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</link>
+      <pubDate>Sat, 10 Jun 2017 19:53:18 -0700</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/notes/poncelet-elementary-hurwitz/</guid>
+      <description>Euler/Chapple  Suppose a triangle has a circumscribed circle with radius R and an inscribed circle with radius r. The distance between the two centers is d. Prove that: \(R^2 - d^2 = 2Rr\) . Give the above result a PCT reading.  Tetragons (Fuss) \(\star\) Suppose a tetragon has both a circumscribed circle and an inscribed circle. The radii and the distance are R, r, d as before. Prove:</description>
     </item>
     
   </channel>
