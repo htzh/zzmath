@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Notes on Lean prover</title>
+      <link>http://htzh.github.io/zzmath/notes/lean/</link>
+      <pubDate>Sat, 03 Nov 2018 21:42:36 -0700</pubDate>
+      
+      <guid>http://htzh.github.io/zzmath/notes/lean/</guid>
+      <description>Inductive type Inductive families  inductive vector (α : Type u) : nat → Type u | nil {} : vector zero | cons {n : ℕ} (a : α) (v : vector n) : vector (succ n)  In the declaration of inductive families, any argument in the type declaration before the colon is a type parameter. They are also implicitly present in the constructor declarations. The arguments after the colon are indices and are explicitly specified in the constructor declaration to indicate which member of the type family is being constructed.</description>
+    </item>
+    
+    <item>
       <title>Surfaces overview</title>
       <link>http://htzh.github.io/zzmath/notes/surfaces-classification/</link>
       <pubDate>Thu, 15 Jun 2017 11:50:14 -0700</pubDate>

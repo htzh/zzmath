@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://htzh.github.io/zzmath/notes/lean/</loc>
+    <lastmod>2018-11-03T21:42:36-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://htzh.github.io/zzmath/notes/surfaces-classification/</loc>
     <lastmod>2017-06-15T11:50:14-07:00</lastmod>
   </url>
@@ -73,7 +78,7 @@
   
   <url>
     <loc>http://htzh.github.io/zzmath/</loc>
-    <lastmod>2017-06-15T11:50:14-07:00</lastmod>
+    <lastmod>2018-11-03T21:42:36-07:00</lastmod>
     <priority>0</priority>
   </url>
   
