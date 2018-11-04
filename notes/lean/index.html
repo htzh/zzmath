@@ -118,7 +118,7 @@ inductive vector <i style="color:orange">(α : Type u)</i> : <b style="color:#FF
 inductive eq <i style="color:orange">{α : Sort u} (a : α)</i> : <b style="color:#FF0000">α</b> → Prop
 | refl : eq <b style="color:#FF0000">a</b>
 </pre>
-Note in the case of ```eq``` the type is dependent on a fixed element, in addition to the type of the element; the same element is also used to specify the type family the constructor builds. The element, being a non-optional parameter, must be positionally provisioned in the application of either the type function ```eq``` or the constructor ```eq.refl```, as reflected by their type signatures. While we can construct ```Prop``` types like ```eq a x``` the declaration of ```eq.refl``` ensures that the constructor can only be used to produce an instance (proof) of the type ```eq a a```.
+Note in the case of `eq` the type is dependent on a fixed element, in addition to the type of the element; the same element is also used to specify the type family the constructor builds. The element, being a non-optional parameter, must be positionally provisioned in the application of either the type function `eq` or the constructor `eq.refl`, as reflected by their type signatures. While we can construct `Prop` types like `eq a x` the declaration of `eq.refl` ensures that the constructor can only be used to produce an instance (proof) of the type `eq a a`.
 
 <pre>
 #print eq
