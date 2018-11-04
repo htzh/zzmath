@@ -9,7 +9,7 @@
   <title> Notes on Lean prover </title>
 
   
-  <meta name="description" content="things I found useful to the understanding of Lean prover"> 
+  <meta name="description" content="Things I found useful to the understanding of Lean prover"> 
   
   
   
@@ -22,7 +22,7 @@
 
 
   <meta property="og:title" content="Notes on Lean prover" />
-<meta property="og:description" content="things I found useful to the understanding of Lean prover" />
+<meta property="og:description" content="Things I found useful to the understanding of Lean prover" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://htzh.github.io/zzmath/notes/lean/" /><meta property="article:published_time" content="2018-11-03T21:42:36-07:00"/>
 <meta property="article:modified_time" content="2018-11-03T21:42:36-07:00"/>
@@ -104,7 +104,8 @@ inductive vector <i style="color:orange">(α : Type u)</i> : <b style="color:#FF
 inductive eq <i style="color:orange">{α : Sort u} (a : α)</i> : <b style="color:#FF0000">α</b> → Prop
 | refl : eq <b style="color:#FF0000">a</b>
 </pre>
-Note in the case of `eq` the type is dependent on a fixed element, in addition to the type of the element; the same element is also used to specify the type family the constructor builds. The element, being a non-optional parameter, must be positionally provisioned in the application of either the type function `eq` or the constructor `eq.refl`, as reflected by their type signatures. While we can construct `Prop` types like `eq a x` the declaration of `eq.refl` ensures that the constructor can only be used to produce an instance (proof) of the type `eq a a`.
+
+<p>Note in the case of <code>eq</code> the type is dependent on a fixed element, in addition to the type of the element; the same element is also used to specify the type family the constructor builds. The element, being a non-optional parameter, must be positionally provisioned in the application of either the type function <code>eq</code> or the constructor <code>eq.refl</code>, as reflected by their type signatures. While we can construct <code>Prop</code> types like <code>eq a x</code> the declaration of <code>eq.refl</code> ensures that the constructor can only be used to produce an instance (proof) of the type <code>eq a a</code>.</p>
 
 <pre>
 #print eq
